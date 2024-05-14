@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 20px;
+    background: darkseagreen;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    background: linear-gradient(rgb(216, 56, 56),rgb(69, 231, 69),rgb(243, 243, 66));
+    width:fit-content;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 50px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background: repeating-linear-gradient(rgb(48, 190, 48),rgb(185, 51, 51), magenta);
+}
+#N1 label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#N1 input{
+    width: 100px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+}
+#OP select{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 150px;
+    height: 50px;
+}
+#N2 label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 150px;
+}
+#N2 input{
+    width: 100px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+#res{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    /* margin-left: auto; */
+    text-align: center;
+    padding-top: 20px;
+    /* margin-right: auto; */
+}
+button{
+   
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 250px;
+    background: gold;
+    margin-left: 40%;
+    margin-top: 20px;
+}
